@@ -1,0 +1,293 @@
+html {
+    clear:both;
+    background-color: #042a26;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#main-left {
+    float: left;
+}
+
+#main-left {
+    float: right;
+}
+
+.main-picture {
+    position: fixed;
+    z-index: -1;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: 1.5eM;
+    padding-right: 2eM;
+}
+
+
+.main-nav, h1 {
+    float: left;
+}
+
+.main-pics {
+    width: 50%;
+    margin: 0;
+    
+}
+
+li {
+    color: white;
+    float: right;
+    padding-right: 2eM;
+}
+
+
+img {
+    max-width: 100%;
+    margin-top: -13eM;
+}
+
+header {
+    background: #ff561e;
+    color: navajowhite;
+    position: fixed;
+    width: 100%;
+    padding-left: 2eM;
+}
+
+.main-body {
+    padding-top: 5eM;
+}
+
+h1 {
+    color: white;
+}
+
+.main-body-info {
+    background-color: white;
+    padding-top: .5eM;
+    padding-left: 2eM;
+    padding-right: 2eM;
+    padding-bottom: 2eM;
+}
+
+.test {
+    padding-bottom: 20eM;
+    background-color: transparent;
+}
+
+footer {
+    background-color: #042a26;
+    padding-top: 2eM;
+    padding-bottom: 2eM;
+    text-align: center;
+    color: white;
+}
+
+.secondary-color {
+    background-color: #042a26;
+    color: white;
+    padding-top: 1eM;
+    padding-left: 2eM;
+    padding-right: 2eM;
+    padding-bottom: 1eM;
+}
+
+.main-attractions {
+           background-color: black;
+}
+
+p {
+    font-size: 1.2eM;
+    line-height: 2eM; 
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+    img {
+        margin-top: 5eM;
+    }
+    .test {
+        padding-bottom: 25eM;
+    }
+    nav {
+        display: block;
+    }
+    
+    .main-nav, h1 {
+    float: none;
+    
+    }
+    
+    h1 {
+        text-align: center;
+    }
+
+    li {
+    float: none;
+    text-align: center;
+    padding-bottom: .6eM;
+        padding-right: 0;
+    }
+    
+    ul {
+        padding: 0;
+        
+    }
+    header {
+        padding-left: 0;
+    }
+    
+    .graphics {
+     align-content: center;   
+    }
+    
+
+    
+    .main-pics {
+    align-content: center;
+    width: 100%;
+    margin: 0;
+}
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 849px) {
+    
+    img {
+        margin-top: 5eM;
+    }
+    .test {
+        padding-bottom: 25eM;
+    }
+    nav {
+        display: block;
+    }
+    
+    .main-nav, h1 {
+    float: none;
+    
+    }
+    
+    h1 {
+        text-align: center;
+    }
+
+    li {
+    float: none;
+    text-align: center;
+    padding-bottom: .6eM;
+        padding-right: 0;
+    }
+    
+    ul {
+        padding: 0;
+        
+    }
+    header {
+        padding-left: 0;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    img {
+        margin-top: -5eM;
+    }
+    .test {
+        padding-bottom: 15eM;
+    }
+    
+    
+}
+
+@media screen and (min-width: 1000px) {
+    img {
+        margin-top: -10eM;
+    }
+     .test {
+        padding-bottom: 20eM;
+    }
+    
+    p {
+        padding-left: 5eM;
+        padding-right: 5eM;
+    }
+    
+
+    .main-attractions {
+        align-content: center;
+        text-align: center;
+
+    }
+    
+    .main-nav, h1 {
+        float: left;
+}
+
+    .main-pics {
+        width: 50%;
+        margin: 0;
+        padding-right: 0eM;
+        background-color: 
+}
+
+    li {
+        color: white;
+        float: right;
+        padding-right: 2eM;
+}
+
+    
+    h2 {
+        padding-left: 96px;
+        padding-right: 96px;
+    }
+    
+    form {
+    padding-left: 5eM;
+}
+    
+}
+
+a {
+    -webkit-transition: font-size 1s;
+    transition: font-size 1s;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #bffff9;
+    cursor: pointer;
+    font-size: 1.2eM;
+    
+}
+
+.container-color {
+    background-color: black;
+    padding-top: .5eM;
+    padding-left: 2eM;
+    padding-right: 2eM;
+    padding-bottom: 2eM;
+    color: white;
+}
+
+
+fieldset {
+    border: none;
+    font-size: 1.1eM;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+input {
+    background-color: white;
+    border: none;
+    font-size: 1SeM;
+}
+
